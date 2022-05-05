@@ -42,4 +42,10 @@ public final class UserResource {
                 .map(user -> new UserInfo(user.getName(), user.getPassword()))
                 .collect(toList());
     }
+
+    public int add(final int a, final int b) {
+//        System.out.println("a + b: " + a+b);
+        int c = 100;
+        return a + b;
+    }
 }
